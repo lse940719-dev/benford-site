@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Benford Analyzer Pro</title>
+
+    <!-- 圖表 -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>📊 班佛定律分析系統</h1>
+
+    <textarea id="input" placeholder="輸入數字，用逗號分隔"></textarea>
+    <br>
+
+    <input type="file" id="file">
+
+    <br><br>
+
+    <button onclick="analyze()">分析</button>
+
+    <h2>結果</h2>
+    <pre id="output"></pre>
+
+    <canvas id="chart" width="400" height="200"></canvas>
+
+    <hr>
+
+    <button onclick="antigravity()">🚀 Don't click</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
